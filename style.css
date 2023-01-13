@@ -1,0 +1,250 @@
+@import url('https://fonts.cdnfonts.com/css/gasterye');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1555252333-9f8e92e65df9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    font-family: 'Gasterye Bold', sans-serif;
+    font-size: 350px;
+    color: #6664ff;
+    text-align: center;
+}
+h1:hover{
+    color: #ff6961;
+
+}
+.btn{
+    width: 150px;
+    display: block;
+    background-color: #ff6961;
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.btn:hover{
+    background-color:#6664ff;
+    color:#9bfae0;
+    
+   }
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    color: #ff0534;
+    text-decoration: none;
+    
+}
+
+.sec1 {
+   display: flex;
+}
+
+.izquierda{
+    background:#94e7ff;
+    height: 100vh;
+    width: 50%;
+}
+.derecha{
+    background: url(https://images.unsplash.com/photo-1582486225644-aeacf6aa0b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+
+}  
+.letra1 {
+    color: #e5097f;
+}
+
+h2{
+    color: #014ba0;
+    font-size: 75px;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+h3{
+    margin: center;
+    margin-left: 300px;
+    color: #014ba0;
+   
+}
+p{
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+}
+.bt{
+    border: 2px solid #e5097f ;
+    padding: 10px;
+    text-decoration: none;
+    color: #6664ff;
+    border-radius: 10px;
+    background-color: #ffa8d9;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+.link{
+    text-align: center;
+}
+.sec2{
+    width:100%;
+    height: 25vh;
+    background-color: #dc143c;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.te1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: #f8f5f6;
+    margin-left: 400px;
+    padding: 50px;
+}
+.sec3{
+    width:100%;
+    height: 100vh;
+    background-color: #4afde7;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-infantil-coloridas-nubes-planas_360032-1574.jpg?w=1060);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bosito{
+    width: 900;
+    height: 600px;
+    margin: 100px 200px;
+}
+.tex{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: #f45572;
+
+}
+.sec6{
+    width:100%;
+    height: 25vh;
+    background-color:#01c4e7;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec4{
+    width:100%;
+    height: 100vh;
+    background-color: #4afde7;
+    background-image: url(https://img.freepik.com/foto-gratis/confeti-estrella-brillante-sobre-fondo-acuarela-pastel-abstracto-colorido_53876-98173.jpg?w=826&t=st=1670892504~exp=1670893104~hmac=36ad50262e92595aab021fa23f227355f83eb3082d21a65bac4eedee2683ce34);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p{
+    text-align: center;
+}
+
+.bbjugu{
+    width:650px;
+    height: 450px;
+    margin: 75px 50px;
+
+}
+.sec7{
+    width:100%;
+    height: 25vh;
+    background-color:#c501e2;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec5{
+    width:100%;
+    height: 100vh;
+    background-color: #4afde7;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tarjeta {
+    ;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border: 5px solid black;
+}
+.libro{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    display: block;
+    width: 150px;
+    background-color: slateblue;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.face{
+    width: 40px;
+    height: 40px;
+
+}
+.insta{
+    width: 40px;
+    height: 40px;
+
+}
+
+.mapa{
+    padding: 50px 50px;
+}
+footer{
+    width: 100%;
+    height:350px;
+    background: url(https://fondosmil.com/fondo/1938.jpg);
+    text-align: center;
+}
