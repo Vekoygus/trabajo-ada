@@ -58,6 +58,9 @@ nav ul li a {
     text-decoration: none;
     
 }
+.menú {
+    
+}
 
 .sec1 {
    display: flex;
@@ -102,7 +105,7 @@ p{
 }
 .bt{
     width: 150px;
-    border: 2px solid #e5097f ;
+    border: 2px solid #f080bbc7 ;
     padding: 10px;
     text-decoration: none;
     color: #6664ff;
@@ -153,7 +156,7 @@ p{
     color: #f45572;
 
 }
-.sec6{
+.sec4{
     width:100%;
     height: 25vh;
     background-color:#f79fbe;
@@ -162,7 +165,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
 }
-.sec4{
+.sec5{
     width:100%;
     height: 100vh;
     background-color: #b0f6f2;
@@ -181,7 +184,7 @@ p{
     margin: 75px 50px;
 
 }
-.sec7{
+.sec6{
     width:100%;
     height: 25vh;
     background-color:#d0bdf6;
@@ -190,7 +193,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
 }
-.sec5{
+.sec7{
     width:100%;
     height: 50vh;
     padding-top: 40px;
@@ -248,4 +251,25 @@ footer{
     height:350px;
     background: url(https://fondosmil.com/fondo/1938.jpg);
     text-align: center;
+}
+
+
+
+@media screen and (max-width:600px) {
+    body{
+        background: yellow;
+    }
+    h1 {
+        display: none;
+
+    }
+    h2 {
+        display: block;
+    }
+    .img{
+        display: none;
+    }
+    .img2{
+        display: block;
+    }
 }
