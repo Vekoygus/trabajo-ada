@@ -97,11 +97,13 @@ h3{
     color: #014ba0;
    
 }
-p{
+.text{
     font-size: 19px;
     line-height: 30px;
     width: 50%;
     margin: auto;
+    text-align: justify;
+    
 }
 .bt{
     width: 150px;
