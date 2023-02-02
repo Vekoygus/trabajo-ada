@@ -16,14 +16,52 @@ header{
     background: url(https://images.unsplash.com/photo-1555252333-9f8e92e65df9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
     background-repeat: no-repeat;
     background-size: cover;
+   
 
+}
+.cbz{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+    background-color: #ffe1ee;
+}
+.cbz.logo{
+    height: 60px;
+    width: auto;
+    justify-content: fl;
+    
+}
+.logme {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    color: #646064;
+    text-decoration: none;
+  
+
+    
 }
 
 h1{
     font-family: 'Gasterye Bold', sans-serif;
     font-size: 350px;
-    color: #6664ff;
+    color: #00b0ff;
     text-align: center;
+    text-shadow: rgb(10, 10, 10) 2px 2px 3px;
 }
 h1:hover{
     color: #ff6961;
@@ -42,26 +80,10 @@ h1:hover{
     
 }
 .btn:hover{
-    background-color:#6664ff;
+    background-color:#00b0ff;
     color:#9bfae0;
     
    }
-nav ul li {
-    display: inline-block;
-    list-style: none;
-}
-
-nav ul li a {
-    display: inline-block;
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    font-size: 20px;
-    color: #8f7193;
-    text-decoration: none;
-    
-}
-.menú {
-    
-}
 
 .sec1 {
    display: flex;
@@ -294,24 +316,3 @@ footer{
 
 
 
-@media screen and (max-width:600px) {
-    body{
-        background: yellow;
-    }
-    .hero {display:none;}
-    
-
-    h1 {
-        display: none;
-
-    }
-    h2 {
-        display:
-    }
-    .img{
-        display: none;
-    }
-    .img2{
-        display: block;
-    }
-}
