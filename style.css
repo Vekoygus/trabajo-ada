@@ -30,7 +30,7 @@ header{
 .cbz.logo{
     height: 60px;
     width: auto;
-    justify-content: fl;
+    
     
 }
 .logme {
@@ -161,8 +161,8 @@ h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
     color: #f8f5f6;
-    margin-left: 400px;
-    padding: 50px;
+    padding: 75px;
+    text-align: justify;
 }
 .sec3{
     width:100%;
@@ -262,30 +262,30 @@ p{
 }
 .galeria{
     width: 100%;
-    
-    max-width: 1200px;
     overflow: hidden;
-    margin: 0 auto;
-
+    margin:0 auto;
     background-color: #ffffec;
+    background-size: contain;
 }
 .galeria_container{
    
     display: flex;
     gap: 20px;
-    
+     
 
 }
-.gale_text{
-    color: #eb3654;
+.gale_text {
+    color: hsl(350, 82%, 57%);
     font-size: 2rem;
     margin-bottom: 1em;
 
 }
 .galeria_fotos{
-    max-width: 350px;
+    min-width: 200px;
+    max-width: 1200px;
     flex: 350px;
-    padding: 25px;
+    padding-top: 25px;
+    padding-left: 400px;
    
 }
 
