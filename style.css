@@ -116,21 +116,24 @@ h2{
 }
 h3{
     margin: center;
-    margin-left: 300px;
+    margin-left: 270px;
     color: #014ba0;
+    font-size:25px;
+    
    
 }
 .text{
     font-size: 19px;
     line-height: 30px;
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
     text-align: justify;
+    padding: 25px;
     
 }
 .bt{
     width: 150px;
-    border: 2px solid #f080bbc7 ;
+    border: 2px solid #e75fa8c7 ;
     padding: 10px;
     text-decoration: none;
     color: #6664ff;
@@ -138,7 +141,7 @@ h3{
     background-color: #ffa8d9;
     font-weight: bold;
     display: inline-block;
-    margin-top: 0 auto;
+    margin-top: 40px;
 
 }
 .link{
