@@ -643,7 +643,7 @@ footer {
     display: flex;
     float: left; 
     width: 800px; 
-    height: 450px;
+    height: 400px;
     margin-right: 1em;
     
 }
@@ -654,37 +654,40 @@ footer {
 }
 
 .face{
-    margin-top: 60px;
-    margin-left: 15px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
     padding: 5px;
     width: 35px;
     height: 35px;
 
 }
 .insta{
-    margin-top: 60px;
-    margin-left: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
     padding: 5px;
     width: 35px;
     height: 35px;
 
 }
 .twiter{
-    margin-top: 60px ;
-    margin-left: 15px;
+    margin-top: 25px ;
+    margin-left: 25px;
+    margin-bottom: 10px;
     padding: 5px;
     width: 35px;
     height: 35px;
 }
 .mapa{
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 50px;
     padding: 25px 25px;
 }
 .fin{
    display: flexbox;
    justify-content: flex-start;
-   padding-top: 50px;
+   padding-top: 15px;
    margin-left: -5px;
   
 }
