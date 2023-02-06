@@ -51,8 +51,6 @@ nav ul li a {
     color: #646064;
     text-decoration: none;
   
-
-    
 }
 
 h1{
@@ -174,19 +172,21 @@ h3{
     background-repeat: no-repeat;
 }
 .bosito{
-    width: 850px;
-    height: 550px;
-    margin: 100px 50px;
-    justify-content: center;
-   
+    width: 600px;
+    height: 450px;
+    margin: 100px 450px;
+    justify-content: center;  
 
 }
-.tex{
+.te2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 75px;
-    color: #f45572;
+    font-size: 19px;
+    color: #f8f5f6;
+    padding: 75px;
+    text-align: justify;
 
 }
+
 .sec4{
     width:100%;
     height: 25vh;
@@ -212,7 +212,7 @@ p{
 .bbjugu{
     width:650px;
     height: 450px;
-    margin: 75px 50px;
+    margin: 75px 400px;
 
 }
 .sec6{
@@ -291,11 +291,27 @@ p{
     max-width: 1200px;
     flex: 350px;
     padding-top: 25px;
-    padding-left: 400px;
+    padding-left: 20px;
    
    
 }
+footer {
+    width: 100%;
+    height:50vh;
+    background: url(https://fondosmil.com/fondo/1938.jpg);
+    display: flex;
+   
+    
+}
 
+.redes {
+    
+    background: url(https://fondosmil.com/fondo/1938.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    
+}
 .imagen{
     
    width: 75%;
@@ -304,26 +320,40 @@ p{
     
 }
 .face{
-    width: 40px;
-    height: 40px;
+    margin-top: 320px;
+    margin-left: 75px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
 
 }
 .insta{
-    width: 40px;
-    height: 40px;
+    margin-top: 320px;
+    margin-left:85px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
 
 }
-
+.twiter{
+    margin-top: 320px ;
+    margin-left: 75px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
 .mapa{
+    margin-top: 100px;
+    margin-left: 200px;
     padding: 50px 50px;
 }
-footer{
-    width: 100%;
-    height:350px;
-    background: url(https://fondosmil.com/fondo/1938.jpg);
-    text-align: center;
-    
+.fin{
+    margin-top: 360px ;
+    margin-left: 250px;
+    text-align: justify;
+    justify-content: flex-end;
 }
+
 
 
 @media screen and (max-width: 800px){
@@ -335,19 +365,331 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 800px;
-        float: left; width: 800px; height: 550px; margin-right: 1em; 
+        float: left; 
+        width: 800px; 
+        height: 550px;
+        margin-right: 1em; 
     
     }
 
-    h1{
-        font-family: 'Gasterye Bold', sans-serif;
-        font-size: 175px;
-        color: #00b0ff;
-        text-align: center;
-        text-shadow: rgb(10, 10, 10) 2px 2px 3px;
-    }
-    h1:hover{
-        color: #ff6961;
-    
+.cbz{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+    padding: 5px 10%;
+    background-color: #ffe1ee;
+}
+.cbz.logo{
+    height: 60px;
+    width: auto;
+       
+}
+.logme {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
     
 }
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 18px;
+    color: #646064;
+    text-decoration: none;
+   
+}
+h1{
+    font-family: 'Gasterye Bold', sans-serif;
+    font-size: 175px;
+    color: #00b0ff;
+    text-align: center;
+    text-shadow: rgb(10, 10, 10) 2px 2px 3px;
+    padding-top: 35px;
+}
+h1:hover{
+    color: #ff6961;
+
+
+}
+.btn{
+    width: 100px;
+    display: block;
+    background-color:#00b0ff;
+    text-decoration: none;
+    color:#9bfae0;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    
+}
+.btn:hover{
+    
+    background-color: #ff6961;
+    color: blanchedalmond;
+   
+}
+
+.sec2{
+    width:100%;
+    height: 20vh;
+    background-color:#ffbfb0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    float: left; 
+    width: 800px; 
+    
+    margin-right: 1em; 
+}
+
+.te1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #f8f5f6;
+    padding: 50px;
+    text-align: justify;
+}
+
+.sec3{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    background-color: #4afde7;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-infantil-coloridas-nubes-planas_360032-1574.jpg?w=1060);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    float: left; 
+    width: 800px; 
+    height: 350px;
+    margin-right: 1em; 
+}
+.bosito{
+    width: 400px;
+    height: 250px;
+    margin: 25px 200px;
+    justify-content: center;
+   
+
+}
+
+.sec4{
+    width:100%;
+    height: 20vh;
+    background-color:#f79fbe;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left; 
+    width: 800px; 
+    margin-right: 1em; 
+}
+.tex{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #b0f6f2;
+}
+.sec5{
+    width:100%;
+    height: 100vh;
+    background-color: #b0f6f2;
+    background-image: url(https://img.freepik.com/foto-gratis/confeti-estrella-brillante-sobre-fondo-acuarela-pastel-abstracto-colorido_53876-98173.jpg?w=826&t=st=1670892504~exp=1670893104~hmac=36ad50262e92595aab021fa23f227355f83eb3082d21a65bac4eedee2683ce34);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    float: left; 
+    width: 800px; 
+    height: 350px;
+    margin-right: 1em; 
+}
+p{
+    text-align: center;
+}
+.te2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #1b0d12;
+    padding-top: 2px;
+    margin: 10px;
+    text-align: justify;
+    
+}
+
+.bbjugu{
+    width: 400px;
+    height: 250px;
+    margin: 20px 200px;
+    justify-content: center;
+
+}
+.sec6{
+    width:100%;
+    height: 20vh;
+    background-color:#d0bdf6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left; 
+    width: 800px; 
+    margin-right: 1em; 
+}
+
+.galeria{
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    background-color: #ffffec;
+}
+.galeria_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.gale_text {
+    color: #bc98f3;
+    font-size: 2rem;
+    margin-bottom: 1em;
+    padding: 30px 0;
+  
+}
+.galeria_fotos{
+    min-width: 200px;
+    max-width: 1200px;
+    flex: 350px;
+    padding-top: 25px;
+    padding-left: 120px;
+    float: left; 
+    width: 800px; 
+    height: 450px;
+    margin-right: 1em;
+   
+   
+}
+
+.imagen{
+    
+   width: 75%;
+   height: 75%;
+   object-fit: cover;
+  
+    
+}
+.sec7{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    min-height: 50vh;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    background-color: #ffeff6;
+}
+.tarjeta {
+   background-color: #cff5d6;
+   width: 20%;
+   height: 4%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   box-shadow: 0 0 32px -16px rgb(10, 10, 10);
+   border-radius: 25px;
+   min-height: 200px;
+}
+.card{
+   height: 25%;
+}
+.card_img  {
+   width: 100px;
+   height: 75px;
+   display: flex;
+   margin: 1px;
+}
+.card_titulo{
+    margin-top: 15px;
+   text-align: center;
+   font-size: 11px;
+   margin: 35px;
+}
+.btn1 {
+   display: inline-block;
+   background-color: #fdcae1;
+   padding: 5px 3px;
+   margin-top: 5px;
+   text-decoration: none;
+   border-radius: 5%;
+   font-size: 11px;
+}
+footer {
+    width: 50%;
+    height: 25vh;
+    background: url(https://fondosmil.com/fondo/1938.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    float: left; 
+    width: 800px; 
+    height: 500px;
+    margin-right: 1em;
+    
+}
+
+.redes {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    float: left; 
+    width: 800px; 
+    height: 450px;
+    margin-right: 1em;
+    
+}
+
+.face{
+    margin-top: 160px;
+    margin-left: 37px;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+
+}
+.insta{
+    margin-top: 160px;
+    margin-left: 37px;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+
+}
+.twiter{
+    margin-top: 160px ;
+    margin-left: 37px;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+}
+.mapa{
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 25px 25px;
+}
+.fin{
+    font-size: 11px;
+    text-align: justify;
+    justify-content: flex-end;
+}
+
