@@ -291,7 +291,7 @@ p{
     max-width: 1200px;
     flex: 350px;
     padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 350px;
    
    
 }
@@ -635,23 +635,12 @@ p{
    font-size: 11px;
 }
 footer {
-    width: 50%;
-    height: 25vh;
+    width: 100%;
+    height: 50vh;
     background: url(https://fondosmil.com/fondo/1938.jpg);
-    background-repeat: no-repeat;
+    max-width: 800px;
+   
     display: flex;
-    float: left; 
-    width: 800px; 
-    height: 500px;
-    margin-right: 1em;
-    
-}
-
-.redes {
-    
-    display: flex;
-    justify-content: flex-end;
-    align-content: space-between;
     float: left; 
     width: 800px; 
     height: 450px;
@@ -659,37 +648,44 @@ footer {
     
 }
 
+.redes{
+    display: flexbox;
+    flex-direction: column;
+}
+
 .face{
-    margin-top: 160px;
-    margin-left: 37px;
+    margin-top: 60px;
+    margin-left: 15px;
     padding: 5px;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 
 }
 .insta{
-    margin-top: 160px;
-    margin-left: 37px;
+    margin-top: 60px;
+    margin-left: 15px;
     padding: 5px;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 
 }
 .twiter{
-    margin-top: 160px ;
-    margin-left: 37px;
+    margin-top: 60px ;
+    margin-left: 15px;
     padding: 5px;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 .mapa{
-    margin-top: 50px;
-    margin-left: 100px;
+    margin-top: 250px;
+    margin-left: 50px;
     padding: 25px 25px;
 }
 .fin{
-    font-size: 11px;
-    text-align: justify;
-    justify-content: flex-end;
+   display: flexbox;
+   justify-content: flex-start;
+   padding-top: 50px;
+   margin-left: -5px;
+  
 }
 
