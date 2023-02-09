@@ -43,7 +43,7 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     font-family:Georgia, 'Times New Roman', Times, serif; 
-    font-size: 20px;
+    font-size: 22px;
     color: #646064;
     text-decoration: none;
   
@@ -87,6 +87,7 @@ h1:hover{
     background: #fffff1;
     height: 100vh;
     width: 50%;
+   
 }
 .derecha{
     background: url(https://images.unsplash.com/photo-1582486225644-aeacf6aa0b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
@@ -197,6 +198,7 @@ h3{
 }
 p{
     text-align: center;
+    font-size: 19px;
 }
 
 .bbjugu{
@@ -208,8 +210,7 @@ p{
 .sec6{
     width:100%;
     height: 25vh;
-    background-color:#d0bdf6;
-  
+    background-color: #d0bdf6;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -297,7 +298,6 @@ footer {
     height:50vh;
     background: url(https://fondosmil.com/fondo/1938.jpg);
     background-size: cover;
-    
     background-repeat: no-repeat;
     display: flex;
    
@@ -307,9 +307,7 @@ footer {
 .redes {
     
 
-    display: flex;
-    
-    
+    display: flex;  
     
 }
 
@@ -350,67 +348,6 @@ footer {
     align-items: flex-end;
     padding-bottom: 20px;
     margin-left: 65px;
-}
-
-@media screen (max-width:1200){
-
- footer {
-    width: 100%;
-    height:50vh;
-    background: url(https://fondosmil.com/fondo/1938.jpg);
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    display: flex;
-   
-    
-}
-
-.redes {
-    
-    display: flex;  
-    
-}
-
-.face{
-    
-    width: 50px;
-    height: 50px;
-    margin: 30px 30px;
-    margin-top: 300px;
-    
-   
-}
-.insta{
-    width: 50px;
-    height: 50px;
-    margin: 30px 30px;
-    margin-top: 300px;
-  
-
-}
-.twiter{
-    width: 50px;
-    height: 50px;
-    margin: 30px 30px;
-    margin-top: 300px;
-    
-}
-.mapa{
-    margin-top: 100px;
-    margin-left: 50px;
-   
-    
-}
-.fin{
-    display: flex;
-    text-align: justify;
-   
-    align-items: flex-end;
-    padding-bottom: 20px;
-    margin-left: 5px;
-}   
-    
 }
 
 @media screen and (max-width: 800px){
@@ -468,9 +405,7 @@ nav ul li a {
     color: #646064;
     text-decoration: none;
     align-items: center;
-    
-    
-   
+     
 }
 h1{
     font-family: 'Gasterye Bold', sans-serif;
@@ -542,12 +477,12 @@ h1:hover{
      margin: center;
      margin-left: 100px;
      color: #2196f3;
-     font-size: 22px;
+     font-size: 25px;
      
     
  }
  .text{
-     font-size: 14px;
+     font-size: 15px;
      line-height: 20px;
      width: 100%;
      margin: 0 auto;
@@ -556,7 +491,7 @@ h1:hover{
      
  }
  .bt{
-     width: 150px;
+     width: 100px;
      border: 2px solid #2196f3;
      padding: 10px;
      text-decoration: none;
@@ -588,7 +523,7 @@ h1:hover{
 
 .te1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #f8f5f6;
     padding: 50px;
     text-align: justify;
@@ -616,9 +551,6 @@ h1:hover{
     margin: auto;
 }
    
-
-
-
 .sec4{
     width:100%;
     height: 20vh;
@@ -630,11 +562,7 @@ h1:hover{
     width: 800px; 
     margin-right: 1em; 
 }
-.tex{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    color: #b0f6f2;
-}
+
 .sec5{
     width:100%;
     height: 100vh;
@@ -651,16 +579,9 @@ h1:hover{
 }
 p{
     text-align: center;
+    font-size: 15px;
 }
-.te2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    color: #1b0d12;
-    padding-top: 2px;
-    margin: 10px;
-    text-align: justify;
-    
-}
+
 
 .bbjugu{
     width: 400px;
@@ -681,47 +602,7 @@ p{
     margin-right: 1em; 
 }
 
-.galeria{
-    width: 100%;
-    overflow: hidden;
-    margin:0 auto;
-    background-color: #ffffec;
-}
-.galeria_container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    
-}
-.gale_text {
-    color: #bc98f3;
-    font-size: 2rem;
-    margin-bottom: 1em;
-    padding: 20px 0;
-  
-}
-.galeria_fotos{
-    min-width: 200px;
-    max-width: 1200px;
-    flex: 350px;
-    padding-top: 20px;
-    padding-left: 120px;
-    float: left; 
-    width: 800px; 
-    height: 450px;
-    margin-right: 1em;
-   
-   
-}
 
-.imagen{
-    
-   width: 75%;
-   height: 75%;
-   object-fit: cover;
-  
-    
-}
 .sec7{
     display: flex;
     width: 100%;
@@ -797,13 +678,10 @@ footer {
     margin-top: 210px;
     margin-left: 8px;
     margin-bottom: 20px;
-
     padding: 3px;
     width: 35px;
     height: 35px;
     
-    
-
 }
 .insta{
     margin-top: 15px;
@@ -849,15 +727,14 @@ footer {
         max-width: 600px;
         float: left; 
         width: 600px; 
-        height: 350px;
+        height: 400px;
         margin-right: 1em; 
     
     }
     .cbz{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
+       
         height: 150px;
         padding: 5px 10%;
         background-color: #ffe1ee;
@@ -868,31 +745,31 @@ footer {
            
     }
     .logme {
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
         
     }
     nav ul li {
         display: flex;
         flex-direction: column;
-        list-style: none;
-        padding: 0px 10px;
+        list-style: none; 
+     
     }
     
     nav ul li a {
         display: flex;
         flex-direction: column;
         font-family:Georgia, 'Times New Roman', Times, serif; 
-        font-size: 20px;
+        font-size: 15px;
         color: #646064;
         text-decoration: none;
-      
+        align-items: self-start;
     }
     
     h1{
         font-family: 'Gasterye Bold', sans-serif;
-        font-size: 350px;
+        font-size: 100px;
         color: #00b0ff;
         text-align: center;
         text-shadow: rgb(10, 10, 10) 2px 2px 3px;
@@ -902,7 +779,7 @@ footer {
     
     }
     .btn{
-        width: 150px;
+        width: 75px;
         display: block;
         background-color:#00b0ff;
         text-decoration: none;
@@ -911,6 +788,8 @@ footer {
         padding: 10px 0;
         text-align: center;
         margin: 0 auto;
+        font-size: 11px;
+        margin-top: 20px;
         
     }
     .btn:hover{
@@ -919,6 +798,167 @@ footer {
         color: blanchedalmond;
        
        }
-
+       .sec1 {
+        display: flexbox;
+         width: 600px;
+         height: 50vh;
+         max-width: 600px;
+         float: left; 
+         width: 600px; 
+         height: 400px;
+        
+     }
+     .derecha{
+         background: url(https://images.unsplash.com/photo-1582486225644-aeacf6aa0b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+         background-size: cover;
+         background-position: center;
+         max-width: 800px;
+         float: left; 
+         width: 300px; 
+         height: 400px;
+     
+     }  
+     .letra1 {
+         color: #ff97d9;
+         font-size: 35px ;
+         padding-left: 10px;
+         
+     }
+     h2{
+    
+        font-size: 35px;
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        color: #2196f3;
+    }
+    h3{
+        margin: center;
+        margin-left: 30px;
+        color: #2196f3;
+        font-size: 20px;
+        
+       
+    }
+    .text{
+        font-size: 12px;
+        line-height: 20px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 25px;
+        
+    }
+    .bt{
+        width: 75px;
+        border: 0.5px solid #2196f3;
+        padding: 10px;
+        text-decoration: none;
+        color: #6664ff;
+        border-radius: 10px;
+        background-color: #fcc0e6;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 5px;
+        font-size: 11px;
+    
+    }
+    .link{
+        text-align: center;
+    }
+    .sec2{
+        width:100%;
+        height: 20vh;
+        background-color:#ffbfb0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 600px;
+        float: left; 
+        width: 600px; 
+        margin-right: 1em; 
+    }
+    
+    .te1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: #f8f5f6;
+        padding: 50px;
+        text-align: justify;
+    }
+    .sec3{
+        display: flex;
+        width:100%;
+        height: 100vh;
+        background-color: #4afde7;
+        background-image: url(https://img.freepik.com/fotos-premium/fondo-infantil-coloridas-nubes-planas_360032-1574.jpg?w=1060);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 600px;
+        float: left; 
+        width: 600px; 
+        height: 400px;
+        margin-right: 1em;
+        
+    }
+    .bosito{
+        width: 400px;
+        height: 250px;
+        margin: auto;
+    }
+    .sec4{
+        width:100%;
+        height: 20vh;
+        background-color:#f79fbe;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left; 
+        width: 600px; 
+        margin-right: 1em; 
+    }
+    .sec5{
+        width:100%;
+        height: 100vh;
+        background-color: #b0f6f2;
+        background-image: url(https://img.freepik.com/foto-gratis/confeti-estrella-brillante-sobre-fondo-acuarela-pastel-abstracto-colorido_53876-98173.jpg?w=826&t=st=1670892504~exp=1670893104~hmac=36ad50262e92595aab021fa23f227355f83eb3082d21a65bac4eedee2683ce34);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 600px;
+        float: left; 
+        width: 600px; 
+        height: 400px;
+        margin-right: 1em; 
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+    }
+   
+    
+    .bbjugu{
+        width: 400px;
+        height: 250px;
+        margin: 50px 100px;
+        justify-content: center;
+    
+    }
+    .sec6{
+        width:100%;
+        height: 20vh;
+        background-color:#d0bdf6;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left; 
+        width: 600px; 
+        margin-right: 1em; 
+    }
+ 
+   
+    
 
 }
