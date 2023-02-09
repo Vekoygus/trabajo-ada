@@ -618,8 +618,13 @@ p{
     margin: 0 auto;
     min-height: 50vh;
     justify-content: space-evenly;
-    
     background-color: #ffeff6;
+    max-width: 800px;
+    float: left; 
+    width: 800px; 
+   
+    margin-right: 1em; 
+
 }
 .tarjeta {
    background-color: #cff5d6;
@@ -723,8 +728,8 @@ iframe {
    justify-content: flex-start;
    padding-top: 20px;
    padding-bottom: 5px;
-   padding-right: 5px;
-   margin-left: -25px;
+   padding-right: 45px;
+   
   
 }
 }
