@@ -265,7 +265,7 @@ p{
     background-color: #ffffec;
 }
 .galeria_container{
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
     gap: 20px;
     
@@ -274,10 +274,11 @@ p{
     color: #bc98f3;
     font-size: 2rem;
     margin-bottom: 1em;
-    padding: 30px 0;
+    padding: 15px 0;
   
 }
 .galeria_fotos{
+    margin: auto;
     min-width: 200px;
     max-width: 1200px;
     flex: 350px;
@@ -601,7 +602,14 @@ p{
     width: 800px; 
     margin-right: 1em; 
 }
-
+.galeria_fotos{
+    margin: auto;
+    min-width: 200px;
+    max-width: 1200px;
+    flex: 350px;
+    padding-top: 25px;
+    padding-left: 250px;
+}
 
 .sec7{
     display: flex;
@@ -700,12 +708,16 @@ footer {
     width: 35px;
     height: 35px;
 }
+iframe {
+    display: flex;
+}
 .mapa{
-    margin-top: 145px;
-    margin-left: 50px;
-    padding: 25px 25px;
+   margin: auto;
+    width: 250px; 
+    height: 200px; 
    
 }
+
 .fin{
    display: flexbox;
    justify-content: flex-start;
@@ -957,8 +969,159 @@ footer {
         width: 600px; 
         margin-right: 1em; 
     }
- 
+    .galeria{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        margin:0 auto;
+        background-color: #ffffec;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        float: left; 
+        max-width: 600px;
+        width: 600px;
+      
+    }
+    .galeria_container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+    }
+    .galeria_fotos{
+        margin: auto;
+        min-width: 100px;
+        max-width: 1200px;
+      
+        padding-top: 25px;
+        padding-left: 150px;
+        display: flex;
+    }
+    .sec7{
+    
+        display: flex;
+       
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        min-height: 50vh;
+        background-color: #ffeff6;
+        max-width: 600px;
+        float: left; 
+        width: 600px; 
+        height: 400px;
+        margin-right: 1em; 
+
+    }
+    .tarjeta {
+       background-color: #cff5d6;
+       width: 25%;
+       height: 4%;
+       overflow: hidden;
+       display: flex;
+       box-shadow: 0 0 32px -16px rgb(10, 10, 10);
+       border-radius: 25px;
+       min-height: 200px;
+       margin: auto;
+      margin-top: 10px;
+  
+       
+    }
+    .card{
+       height: 25%;
+    }
+    .card_img  {
+        object-fit: contain;
+       width: 100%;
+       height: 100px;
+       display: flex;
+       margin: 1px;
+    }
+    .card_titulo{
+        margin-top: 55px; 
+       text-align: center;
+       font-size: 11px;
+       
+    }
+    .btn1 {
+       display: inline-block;
+       background-color: #fdcae1;
+       padding: 5px 3px;
+       
+       text-decoration: none;
+       border-radius: 5%;
+       font-size: 11px;
+       margin-bottom: 35px;
+    }
+    footer {
+        width: 100%;
+        height: 50vh;
+        background: url(https://fondosmil.com/fondo/1938.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 600px;
+        display: flex;
+        float: left; 
+        width: 600px; 
+        height: 250px;
+        margin-right: 1em;
+        min-width: 200px;
+    }
+    
+    .redes{
+        display: flexbox;
+        flex-direction: column;
+        
+        
+    }
+    
+    .face{
+        margin-top: 60px;
+        margin-left: 8px;
+        margin-bottom: 20px;
+        padding: 3px;
+        width: 35px;
+        height: 35px;
+        
+    }
+    .insta{
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 35px;
+        height: 35px;
+    
+    }
+    .twiter{
+        margin-top: 15px ;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    iframe {
+        display: flex;
+    }
+    .mapa{
+       margin: auto;
+        width: 150px; 
+        height: 100px; 
+       
+    }
+    .fin{
+       display: flex;
+       justify-content: center;
+        margin: auto;
+        padding-top: 135px;
+      
+      
+    }
+ }
    
     
 
-}
+
